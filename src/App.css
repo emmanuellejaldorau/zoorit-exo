@@ -1,38 +1,152 @@
-.App {
+
+/* FONTS-------------------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+  font-family: 'Petit Formal Script';
+  src: url('./fonts/PetitFormalScript-Regular.woff2') format('woff2'),
+      url('./fonts/PetitFormalScript-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/* GENERAL-------------------------------------------------------------------------------- */
+html {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+/* APP------------------------------------------------------------------------------------ */
+.main {
+  background-image: url(./images/background-palmiers.jpg);
+  background-size: cover;
+  background-position: top;
+  min-height: 70vh; 
+  margin-top: 1%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainLine0 {
+  margin-bottom: 3%;
+  width:100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mainLine1{
+  margin-bottom: -150px;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.thumbnailsLine{
+  display:flex;
+  justify-content:center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bottom{
+  background-color:gray;
+  min-height: 30vh;
+}
+
+/* THUMBNAILs-------------------------------------------------------------------------- */
+.roundThumbnail {
+  width: 200px;
+  height: 190px;
+  background-size: cover;
+  background-position: top;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  margin: 0 1%;
+}
+
+.roundThumbnail > h3{
+  color:white;
+  font-family: 'Petit Formal Script';
+}
+
+
+.squareThumbnail{
+  margin: 0 1%;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.squareThumbnailImg {
+  width: 160px;
+  height: 200px;
+  background-size: cover;
+  background-position: top;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.squareThumbnailIcons{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5%;
 }
+
+.favorite{
+  display: flex;
+  align-items: center;
+}
+
+.favorite > img{
+  height: 20px;
+  margin: 0 5px;
+}
+
+.favorite > p{
+  margin: 0;
+  font-size: 12px;
+  font-family: 'Petit Formal Script';
+}
+
+.promo{
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 40% 0 0 40%;
+  padding: 5px 2px 5px 8px;
+  font-size: 10px;
+  color: lightpink;
+}
+
+.cta{
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.round{
+  margin-top: 20px;
+}
+
+.square{
+  margin-top: 100px;
+}
+
+.squareThumbnailTitle{
+  margin-bottom: 3px;
+}
+
+.price{
+  display:flex;
+  justify-content: center;
+}
+
+.price > p {
+  margin: 0;
+}
+
+.price > p:first-child {
+  color: lightpink;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+
+
