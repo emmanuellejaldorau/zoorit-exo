@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/zoorit-exo/static/css/main.b05f2963.chunk.css",
+    "main.js": "/zoorit-exo/static/js/main.77b8b0ea.chunk.js",
+    "main.js.map": "/zoorit-exo/static/js/main.77b8b0ea.chunk.js.map",
+    "runtime-main.js": "/zoorit-exo/static/js/runtime-main.60d9d6cf.js",
+    "runtime-main.js.map": "/zoorit-exo/static/js/runtime-main.60d9d6cf.js.map",
+    "static/js/2.9efa092d.chunk.js": "/zoorit-exo/static/js/2.9efa092d.chunk.js",
+    "static/js/2.9efa092d.chunk.js.map": "/zoorit-exo/static/js/2.9efa092d.chunk.js.map",
+    "index.html": "/zoorit-exo/index.html",
+    "precache-manifest.997f88a9135416c0caf97da7d0e190c0.js": "/zoorit-exo/precache-manifest.997f88a9135416c0caf97da7d0e190c0.js",
+    "service-worker.js": "/zoorit-exo/service-worker.js",
+    "static/css/main.b05f2963.chunk.css.map": "/zoorit-exo/static/css/main.b05f2963.chunk.css.map",
+    "static/js/2.9efa092d.chunk.js.LICENSE.txt": "/zoorit-exo/static/js/2.9efa092d.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/zoorit-exo/static/media/background-palmiers.1f9fea56.jpg",
+    "static/media/icon-heart.svg": "/zoorit-exo/static/media/icon-heart.c920efa8.svg",
+    "static/media/logo-ladress.svg": "/zoorit-exo/static/media/logo-ladress.52bf3575.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.60d9d6cf.js",
+    "static/js/2.9efa092d.chunk.js",
+    "static/css/main.b05f2963.chunk.css",
+    "static/js/main.77b8b0ea.chunk.js"
+  ]
+}
